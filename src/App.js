@@ -1,3 +1,5 @@
+import Button from "../src/components/Button";
+
 function App() {
   return (
     <div>
@@ -9,7 +11,11 @@ function App() {
           kii
         </div>    
       </div>
+      <Button disabled={false} onClick={() =>{
+        console.log('button clicked') 
+      }}> Hey Continue</Button>
     </div>
+    
   );
 }
 
