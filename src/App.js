@@ -1,4 +1,5 @@
 import Button from "../src/components/Button";
+import Input from "./components/Input";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
           kii
         </div>    
       </div>
+      <Input>find IT</Input>
       <Button disabled={false} onClick={() =>{
         console.log('button clicked') 
       }}> Hey Continue</Button>
