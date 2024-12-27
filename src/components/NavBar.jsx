@@ -22,7 +22,7 @@ const NavBar = () => {
                 aria-label='Toggle Menu nov'
                  
                    >
-                    <img src={ isOpen?"public/assets/close.svg" : "assets/menu.svg"} alt="toggle" />
+                    <img src={ isOpen?"" : "assets/menu.svg"} alt="toggle" />
                     </button>
                         
                 
